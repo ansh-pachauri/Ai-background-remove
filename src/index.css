@@ -23,3 +23,7 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+
+.bg-layer{
+    background-image: url(/bg_layer.png);
+}
