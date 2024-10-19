@@ -3,7 +3,7 @@ import { assets } from '../assets/assets'
 
 const Results = () => {
   return (
-    <div className='mx-4 my-3 lg:mx-44 mt-14 min-h-[750vh]'>
+    <div className='mx-4 my-3 lg:mx-44 mt-14 min-h-[75vh]'>
 
     <div className='bg-white rounded-lg px-8 py-6 drop-shadow-sm'>
         {/**Image Container image */}
@@ -25,6 +25,11 @@ const Results = () => {
                     </div>
                 </div>
             </div>
+        </div>
+        {/* ----Buttons------- */}
+        <div className='flex justify-center sm:justify-end items-center flex-wrap gap-4 mt-6'>
+            <button className='inline-flex gap-3 px-8 py-2.5 rounded-full text-white cursor-pointer bg-gradient-to-r from-violet-600 to-fuchsia-500 m-auto hover:scale-105 transition-all duration-700' >Try another image</button>
+            <a className='inline-flex gap-3 px-8 py-2.5 text-white rounded-full cursor-pointer bg-gradient-to-r from-violet-600 to-fuchsia-500 m-auto hover:scale-105 transition-all duration-700'  href=''>Download Image</a>
         </div>
     </div>
     </div>
